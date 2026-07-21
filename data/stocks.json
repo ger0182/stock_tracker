@@ -1,0 +1,19 @@
+[
+  {"name":"新盛力","code":"4931","symbol":"4931.TWO","industry":"AI 電源 / BBU","eps2027":21.39,"peLow":18,"peHigh":25,"watch":"第一梯隊"},
+  {"name":"漢唐","code":"2404","symbol":"2404.TW","industry":"半導體廠務","eps2027":95,"peLow":20,"peHigh":28,"watch":"第一梯隊"},
+  {"name":"台半","code":"5425","symbol":"5425.TWO","industry":"功率元件","eps2027":7.95,"peLow":18,"peHigh":25,"watch":"第一梯隊"},
+  {"name":"和淞","code":"6826","symbol":"6826.TWO","industry":"半導體氣體 / 廠務","eps2027":47.5,"peLow":18,"peHigh":22,"watch":"第一梯隊"},
+  {"name":"敘豐","code":"3485","symbol":"3485.TWO","industry":"EMIB-T / 載板濕製程","eps2027":19,"peLow":18,"peHigh":25,"watch":"第一梯隊"},
+  {"name":"鈺邦","code":"6449","symbol":"6449.TWO","industry":"AI 電容","eps2027":18.44,"peLow":20,"peHigh":30,"watch":"第二梯隊"},
+  {"name":"金山電","code":"8042","symbol":"8042.TWO","industry":"AI 牛角電容","eps2027":9.14,"peLow":20,"peHigh":30,"watch":"第二梯隊"},
+  {"name":"環宇-KY","code":"4991","symbol":"4991.TWO","industry":"光通訊 / 100G PD","eps2027":16.25,"peLow":25,"peHigh":40,"watch":"第二梯隊"},
+  {"name":"揚博","code":"2493","symbol":"2493.TW","industry":"HDI / PCB 濕製程","eps2027":15,"peLow":18,"peHigh":25,"watch":"第二梯隊"},
+  {"name":"德微","code":"3675","symbol":"3675.TWO","industry":"功率元件 / Diodes","eps2027":15.33,"peLow":20,"peHigh":30,"watch":"第三梯隊"},
+  {"name":"立隆電","code":"2472","symbol":"2472.TW","industry":"Hybrid 電容","eps2027":16.2,"peLow":18,"peHigh":28,"watch":"第三梯隊"},
+  {"name":"矽格","code":"6257","symbol":"6257.TW","industry":"光通訊測試 / AI ASIC 測試","eps2027":12.59,"peLow":18,"peHigh":25,"watch":"第三梯隊"},
+  {"name":"台達電","code":"2308","symbol":"2308.TW","industry":"AI 電源 / 液冷","eps2027":53.33,"peLow":35,"peHigh":45,"watch":"第三梯隊"},
+  {"name":"富鼎","code":"8261","symbol":"8261.TW","industry":"MOSFET / Dr. MOS","eps2027":10.62,"peLow":18,"peHigh":25,"watch":"觀察"},
+  {"name":"捷敏-KY","code":"6525","symbol":"6525.TW","industry":"功率元件封測","eps2027":9.75,"peLow":15,"peHigh":22,"watch":"觀察"},
+  {"name":"力智","code":"6719","symbol":"6719.TWO","industry":"SPS / GaN Driver","eps2027":11.88,"peLow":18,"peHigh":28,"watch":"觀察"},
+  {"name":"全新","code":"2455","symbol":"2455.TW","industry":"光通訊 / EML 磊晶","eps2027":7.63,"peLow":30,"peHigh":45,"watch":"觀察"}
+]
