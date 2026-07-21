@@ -1,0 +1,24 @@
+{
+  "lastUpdated": "2026-07-20T14:00:00+08:00",
+  "timezone": "Asia/Taipei",
+  "source": "初始資料：使用 7/20 股價；GitHub Actions 會於交易日 14:00 自動更新",
+  "quotes": {
+    "4931": {"symbol":"4931.TWO","price":202.5,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "2404": {"symbol":"2404.TW","price":1135,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "5425": {"symbol":"5425.TWO","price":86,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "6826": {"symbol":"6826.TWO","price":505,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "3485": {"symbol":"3485.TWO","price":224,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "6449": {"symbol":"6449.TWO","price":238.5,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "8042": {"symbol":"8042.TWO","price":117.5,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "4991": {"symbol":"4991.TWO","price":348,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "2493": {"symbol":"2493.TW","price":217,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "3675": {"symbol":"3675.TWO","price":264.5,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "2472": {"symbol":"2472.TW","price":265.5,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "6257": {"symbol":"6257.TW","price":211,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "2308": {"symbol":"2308.TW","price":1705,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "8261": {"symbol":"8261.TW","price":229,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "6525": {"symbol":"6525.TW","price":155.5,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "6719": {"symbol":"6719.TWO","price":218,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"},
+    "2455": {"symbol":"2455.TW","price":277,"change":null,"changePercent":null,"marketTime":"2026-07-20T14:00:00+08:00"}
+  }
+}
