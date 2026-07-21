@@ -1,0 +1,13 @@
+{
+  "name": "tw-stock-eps-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-prices.mjs",
+    "serve": "python -m http.server 8080"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
