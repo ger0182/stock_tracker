@@ -1,0 +1,52 @@
+name: Update Taiwan Stock Prices
+
+on:
+  schedule:
+    # 06:00 UTC = 台灣時間 14:00。GitHub Actions 可能延遲數分鐘。
+    - cron: "0 6 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-prices-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update prices
+        run: node scripts/update-prices.mjs
+
+      - name: Commit updated prices
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update stock prices"
+          file_pattern: data/prices.json
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
